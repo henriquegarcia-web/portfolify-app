@@ -4,9 +4,6 @@ const path = require("path");
 require("dotenv/config");
 
 const stripe = require("stripe")(process.env.SECRET_API);
-// const stripe = require("stripe")(
-//   "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"
-// );
 
 const fs = "fs";
 
